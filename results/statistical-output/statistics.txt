@@ -1,0 +1,5 @@
+STATISTICAL ANALYSIS: HIM-21 Cross-Domain Transfer
+
+Linear regression: Performance = 0.3514x + 0.4981, R=0.8147
+Linear regression: NTLX = -20.3315x + 66.5640, R=-0.6265
+Transfer benefit: 0.1006 (20.1% improvement)

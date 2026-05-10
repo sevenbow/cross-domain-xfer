@@ -1,0 +1,15 @@
+,,oversight_performance,oversight_performance,cognitive_load_ntlx,cognitive_load_ntlx,domain_similarity,transfer_trust,transfer_trust
+,,mean,std,mean,std,first,mean,std
+source_domain,target_domain,,,,,,,
+Cybersecurity,Financial,0.6606,0.0487,54.05,2.9519,0.5,5.4936,0.3556
+Cybersecurity,Legal,0.54,0.0442,64.05,5.3777,0.1,4.38,0.5731
+Cybersecurity,Logistics,0.5055,0.0465,65.3286,3.8764,0.05,4.1493,0.7512
+Cybersecurity,Medical,0.6034,0.0507,60.0214,4.9551,0.3,4.9071,0.6467
+Financial,Cybersecurity,0.6887,0.04,56.9286,4.1861,0.5,5.7543,0.3603
+Financial,Legal,0.7135,0.0406,55.9929,3.158,0.6,5.8586,0.5754
+Financial,Logistics,0.5674,0.0658,64.3071,5.5169,0.2,4.5271,0.5572
+Financial,Medical,0.6391,0.0599,58.9357,3.3619,0.4,5.1071,0.7055
+Medical,Cybersecurity,0.5929,0.0297,61.1143,3.356,0.3,4.8543,0.6007
+Medical,Financial,0.6345,0.0382,56.6643,4.4405,0.4,5.1186,0.4814
+Medical,Legal,0.5416,0.0409,65.8429,5.192,0.1,4.235,0.55
+Medical,Logistics,0.5195,0.0464,64.3714,7.319,0.05,4.1643,0.3133

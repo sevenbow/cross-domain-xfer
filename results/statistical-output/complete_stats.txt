@@ -1,0 +1,33 @@
+STATISTICAL ANALYSIS: HIM-21 Cross-Domain Transfer
+============================================================
+N = 168
+
+Regression: Performance = 0.3514×sim + 0.4981, R=0.815, p<.001
+Regression: NTLX = -20.3315×sim + 66.5640, R=-0.626
+Regression: Trust Transfer = 3.1262×sim + 3.9673, R=0.727
+Regression: Adaptation Time = -127.6289×sim + 301.2132, R=-0.507
+
+Transfer benefit: 0.1006 (20.1% improvement)
+Average NTLX savings: -6.3 points per similarity unit
+
+Performance by source domain:
+  From Cybersecurity: M_perf=0.5774, targets=Financial, Legal, Logistics, Medical
+  From Financial: M_perf=0.6522, targets=Cybersecurity, Legal, Logistics, Medical
+  From Medical: M_perf=0.5721, targets=Cybersecurity, Financial, Legal, Logistics
+
+Domain-pair performance comparison:
+  Financial vs Legal (from Cybersecurity): diff=0.1206, p=0.0000
+  Financial vs Logistics (from Cybersecurity): diff=0.1552, p=0.0000
+  Financial vs Medical (from Cybersecurity): diff=0.0573, p=0.0052
+  Legal vs Medical (from Cybersecurity): diff=-0.0633, p=0.0016
+  Logistics vs Medical (from Cybersecurity): diff=-0.0979, p=0.0000
+  Cybersecurity vs Logistics (from Financial): diff=0.1213, p=0.0000
+  Cybersecurity vs Medical (from Financial): diff=0.0496, p=0.0159
+  Legal vs Logistics (from Financial): diff=0.1462, p=0.0000
+  Legal vs Medical (from Financial): diff=0.0744, p=0.0007
+  Logistics vs Medical (from Financial): diff=-0.0717, p=0.0057
+  Cybersecurity vs Financial (from Medical): diff=-0.0416, p=0.0035
+  Cybersecurity vs Legal (from Medical): diff=0.0513, p=0.0008
+  Cybersecurity vs Logistics (from Medical): diff=0.0734, p=0.0000
+  Financial vs Legal (from Medical): diff=0.0929, p=0.0000
+  Financial vs Logistics (from Medical): diff=0.1150, p=0.0000
